@@ -1,0 +1,122 @@
+ 
+      
+      
+    
+body {
+    
+    
+    
+        
+      /*background-color: #ebba05;*/
+      /*background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);*/
+      font-size: 1em;
+      display: flex;
+      
+      
+     /* max-width: 1000px;
+      margin: auto;
+      border: 3px black dotted;*/
+     padding: .5em;
+           
+    font-family: "comic Sans MS", cursive, sans-serif;
+    font-size: 1.5em;
+    
+    
+    
+}
+
+
+    
+
+
+li{
+   /* color:blue ;*/
+}
+
+h3{
+   /* background-color:blue ;
+    color:white ;*/
+    width: 12em;
+   /*text-align: right;*/
+   border-bottom: midnightblue 2px solid;
+   border-radius: 0 0 2em 0;
+  /* padding-right: 2em;*/
+  /* border-left: transparent;*/
+   
+   
+   
+    
+        
+}
+h3.rr:hover{
+    color: red;
+    /*font-size: 40px;*/
+    border-width: 3px;
+    border-bottom-style: double;
+    border-radius: 50px;
+    
+    
+    
+}
+figure{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+img{
+    border-width: 10px;
+    border-color: orange;
+    border-style: solid;
+    border-radius: 25px;
+    
+}
+h1{
+   /* text-align: right;*/
+    font-family: "Luminari", fantasy,sans-serif;
+    font-size: 2em;
+    
+}
+
+    
+ul{
+    list-style-type: none;
+}
+
+section{
+    width: 79%;
+    padding-left: 0.5em
+        
+}
+aside{
+    width:19%;
+    background-color: grey;
+}
+article{
+    display: flex;
+    
+}
+
+div{
+    /*background : url(Image/DBZ.jpg) no-repeat;
+    background-size: 100%;*/  
+}
+/* Media querries for mobil < 1024 px */
+@media only screen and (max-width: 1024px) {
+    aside{
+        display:none;
+    }
+    article{
+        flex-direction: column;
+    }
+
+}  
+@media only screen and (max-width: 800px) {
+    figure{
+        display: none;
+    }
+    body {
+        font-size: 1.2em;
+    }
+}
